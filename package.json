@@ -1,6 +1,6 @@
 {
   "name": "node-html-templates",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple, zero-dependency HTML templates for nodejs",
   "main": "node-templates.js",
   "scripts": {
@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/vaclav-purchart/node-templates.git"
   },
-  "keywords": ["javascript", "nodejs", "HTML", "templates"],
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "HTML",
+    "templates"
+  ],
   "author": "Vaclav Purchart",
   "license": "MIT",
   "bugs": {
