@@ -19,7 +19,7 @@ console.log(renderFile('./path/to/my/template.ejs'))
    const renderer = require('./my-renderer')
    const data = require('lib/data')
    return renderer(data)
- *>
+%>
 </body>
 ```
 > Returned string is used instead of snippet code.
