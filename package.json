@@ -1,7 +1,7 @@
 {
-  "name": "node-templates",
+  "name": "node-html-templates",
   "version": "1.0.0",
-  "description": "Simple HTML templates for nodejs",
+  "description": "Simple, zero-dependency HTML templates for nodejs",
   "main": "node-templates.js",
   "scripts": {
     "test": "mocha node-templates.test.js"

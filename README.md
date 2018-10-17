@@ -1,12 +1,12 @@
-# node-templates
-Zero-dependency, simple HTML templates for nodejs.
+# node-html-templates
+Simple, zero-dependency HTML templates for nodejs.
 
 This template engine is intended to run nodejs javascript snippets while generating your your HTML. 
 You only need to know javascript and HTML. This template engine is inspired by [EJS](http://ejs.co/) templates.
 
 ## Usage:
 ```javascript
-const {renderFile} = require('node-templates')(__dirname)
+const {renderFile} = require('node-html-templates')(__dirname)
 
 console.log(renderFile('./path/to/my/template.ejs'))
 ```
