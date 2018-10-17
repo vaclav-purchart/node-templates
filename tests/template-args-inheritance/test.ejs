@@ -1,0 +1,10 @@
+<body>
+	begin
+
+	<%
+    return `inheritance-parent: ${inheritedParam}`
+      + require('./sub-template.ejs')()
+      + require('./sub-template.ejs')({inheritedParam: 'overwritten!'})
+  %>
+	end
+</body>

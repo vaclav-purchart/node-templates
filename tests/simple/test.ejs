@@ -1,0 +1,12 @@
+<body>
+	1)
+	<%
+		const fields = require('tests/simple/test-absolute')
+		return fields[0].name
+	%>
+	2)
+	<%
+		const fields = require('./test-relative')
+		return fields[1].value
+	%>
+</body>

@@ -1,0 +1,27 @@
+{
+  "name": "node-templates",
+  "version": "1.0.0",
+  "description": "Simple HTML templates for nodejs",
+  "main": "node-templates.js",
+  "scripts": {
+    "test": "mocha node-templates.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaclav-purchart/node-templates.git"
+  },
+  "keywords": ["javascript", "nodejs", "HTML", "templates"],
+  "author": "Vaclav Purchart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaclav-purchart/node-templates/issues"
+  },
+  "homepage": "https://github.com/vaclav-purchart/node-templates#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.7.0",
+    "eslint-config-recommended": "^4.0.0",
+    "fs-jetpack": "^2.2.0",
+    "mocha": "^5.2.0"
+  }
+}

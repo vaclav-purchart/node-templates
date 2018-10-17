@@ -1,0 +1,11 @@
+<body>
+	begin
+
+	<%
+		return require('./sub-template.ejs')({
+			items: ['x', 'y'],
+			title: 'sub-template-title',
+		})
+	%>
+	end
+</body>
