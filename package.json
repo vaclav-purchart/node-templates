@@ -1,6 +1,6 @@
 {
   "name": "node-html-templates",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple, zero-dependency HTML templates for nodejs",
   "main": "node-templates.js",
   "scripts": {
@@ -24,9 +24,9 @@
   "homepage": "https://github.com/vaclav-purchart/node-templates#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "eslint": "^5.7.0",
+    "eslint": "^6.1.0",
     "eslint-config-recommended": "^4.0.0",
-    "fs-jetpack": "^2.2.0",
-    "mocha": "^5.2.0"
+    "fs-jetpack": "^2.2.2",
+    "mocha": "^6.2.0"
   }
 }

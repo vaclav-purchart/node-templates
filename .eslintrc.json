@@ -7,9 +7,9 @@
 		"mocha": true
     },
     "parserOptions": {
+		"ecmaVersion": 2018,
         "ecmaFeatures": {
 			"mocha": true,
-			"experimentalObjectRestSpread": true
         },
         "sourceType": "module"
     },
