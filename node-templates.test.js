@@ -1,7 +1,7 @@
 const path = require('path')
 const jetpack = require('fs-jetpack')
 const {renderFile} = require('./node-templates')(path.join(__dirname))
-const {assert} = require('chai')
+const {describe, it, assert} = require('@vaclav-purchart/js-test')
 
 const loadSnapshot = (file) => jetpack.read(path.join(__dirname, file))
 

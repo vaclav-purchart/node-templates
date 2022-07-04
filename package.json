@@ -4,7 +4,7 @@
   "description": "Simple, zero-dependency HTML templates for nodejs",
   "main": "node-templates.js",
   "scripts": {
-    "test": "mocha node-templates.test.js"
+    "test": "js-test node-templates.test.js"
   },
   "repository": {
     "type": "git",
@@ -23,10 +23,9 @@
   },
   "homepage": "https://github.com/vaclav-purchart/node-templates#readme",
   "devDependencies": {
-    "chai": "^4.2.0",
+    "@vaclav-purchart/js-test": "^1.0.0",
     "eslint": "^6.1.0",
     "eslint-config-recommended": "^4.0.0",
-    "fs-jetpack": "^2.2.2",
-    "mocha": "^6.2.0"
+    "fs-jetpack": "^2.2.2"
   }
 }
