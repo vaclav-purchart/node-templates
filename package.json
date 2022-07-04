@@ -1,6 +1,6 @@
 {
   "name": "node-html-templates",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple, zero-dependency HTML templates for nodejs",
   "main": "node-templates.js",
   "scripts": {
